@@ -1,20 +1,20 @@
 {
-    "short_name": "Ethereum Boilerplate",
-    "name": "Ethereum Boilerplate",
+    "short_name": "monobank DApp",
+    "name": "monobank DApp",
     "icons": [
         {
-            "src": "favicon.ico",
+            "src": "/img/fav/favicon.ico",
             "sizes": "64x64 32x32 24x24 16x16",
             "type": "image/x-icon"
         },
         {
-            "src": "android-chrome-192x192.png",
+            "src": "/img/fav/android-chrome-192x192.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "any maskable"
         },
         {
-            "src": "android-chrome-512x512.png",
+            "src": "/img/fav/android-chrome-512x512.png",
             "type": "image/png",
             "sizes": "512x512"
         }

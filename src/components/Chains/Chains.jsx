@@ -10,7 +10,7 @@ const styles = {
     alignItems: "center",
     height: "42px",
     fontWeight: "500",
-    fontFamily: "Roboto, sans-serif",
+    fontFamily: "Montserrat, sans-serif",
     fontSize: "14px",
     padding: "0 10px",
   },
