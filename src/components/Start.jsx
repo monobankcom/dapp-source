@@ -70,7 +70,7 @@ export default function Start({ isServerInfo }) {
             <Timeline.Item dot="🥇">
               <Text style={styles.text}>
                 Choose the token to{" "}
-                <a target="_blank" rel="noopener noreferrer" href="/1inch">
+                <a target="_blank" rel="noopener noreferrer" href="/dex">
                   Swap
                 </a>{" "}
                 and enter the trading amount

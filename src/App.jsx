@@ -75,9 +75,9 @@ const App = ({ isServerInfo }) => {
           <div style={styles.headerRight}>
             <Chains />
             <TokenPrice
-              address="0x7815bda662050d84718b988735218cffd32f75ea"
+              address="0x2260fac5e5542a773aa44fbcfedf7c193bc2c599"
               chain="eth"
-              image="/img/logo/yel.png"
+              image="/img/logo/wbtc.png"
               size="40px"
             />
             <NativeBalance />
@@ -93,7 +93,7 @@ const App = ({ isServerInfo }) => {
             <Route path="/wallet">
               <Wallet />
             </Route>
-            <Route path="/1inch">
+            <Route path="/dex">
               <Tabs defaultActiveKey="1" style={{ alignItems: "center" }}>
                 <Tabs.TabPane tab={<span>Ethereum</span>} key="1">
                   <DEX chain="eth" />
@@ -109,7 +109,7 @@ const App = ({ isServerInfo }) => {
             <Route path="/erc20balance">
               <ERC20Balance />
             </Route>
-            <Route path="/onramp">
+            <Route path="/fiat">
               <Ramper />
             </Route>
             <Route path="/erc20transfers">

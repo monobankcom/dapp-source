@@ -294,6 +294,7 @@ function DEX({ chain, customTokens = {} }) {
                 justifyContent: "space-between",
                 alignItems: "center",
                 borderRadius: "0.6rem",
+                background: "#355DFF",
                 padding: "5px 10px",
                 fontWeight: "500",
                 fontSize: "17px",

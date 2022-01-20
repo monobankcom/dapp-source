@@ -18,14 +18,14 @@ function MenuItems() {
       }}
       defaultSelectedKeys={[pathname]}
     >
-      <Menu.Item key="/Start">
-        <NavLink to="/Start">🚀 Start</NavLink>
+      <Menu.Item key="/start">
+        <NavLink to="/start">🚀 Start</NavLink>
       </Menu.Item>
-      <Menu.Item key="/1inch">
-        <NavLink to="/1inch">💻 DEX</NavLink>
+      <Menu.Item key="/dex">
+        <NavLink to="/dex">💻 DEX</NavLink>
       </Menu.Item>
-      <Menu.Item key="onramp">
-        <NavLink to="/onramp">💵 Fiat</NavLink>
+      <Menu.Item key="fiat">
+        <NavLink to="/fiat">💵 Fiat</NavLink>
       </Menu.Item>
       <Menu.Item key="/wallet">
         <NavLink to="/wallet">👛 Wallet</NavLink>
