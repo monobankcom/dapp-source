@@ -11,8 +11,8 @@ function MenuItems() {
       mode="horizontal"
       style={{
         display: "flex",
-        fontSize: "17px",
-        fontWeight: "500",
+        fontSize: "15px",
+        fontWeight: "400",
         width: "100%",
         justifyContent: "center",
       }}
@@ -24,20 +24,20 @@ function MenuItems() {
       <Menu.Item key="/dex">
         <NavLink to="/dex">💻 DEX</NavLink>
       </Menu.Item>
-      <Menu.Item key="fiat">
-        <NavLink to="/fiat">💵 Fiat</NavLink>
+      <Menu.Item key="buy">
+        <NavLink to="/buy">💳 Buy Crypto</NavLink>
       </Menu.Item>
-      <Menu.Item key="/wallet">
-        <NavLink to="/wallet">👛 Wallet</NavLink>
+      <Menu.Item key="/send">
+        <NavLink to="/send">💸 Send</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20balance">
-        <NavLink to="/erc20balance">📊 Balances</NavLink>
+        <NavLink to="/erc20balance">📊 Balance</NavLink>
       </Menu.Item>
       <Menu.Item key="/erc20transfers">
-        <NavLink to="/erc20transfers">💸 Transfers</NavLink>
+        <NavLink to="/erc20transfers">📝 Transactions</NavLink>
       </Menu.Item>
       <Menu.Item key="/nftBalance">
-        <NavLink to="/nftBalance">🖼 NFT</NavLink>
+        <NavLink to="/nftBalance">👾 NFT</NavLink>
       </Menu.Item>
       <Menu.Item key="/contract">
         <NavLink to="/contract">📃 Contract</NavLink>

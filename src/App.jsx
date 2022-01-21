@@ -90,7 +90,7 @@ const App = ({ isServerInfo }) => {
             <Route exact path="/start">
               <Start isServerInfo={isServerInfo} />
             </Route>
-            <Route path="/wallet">
+            <Route path="/send">
               <Wallet />
             </Route>
             <Route path="/dex">
@@ -109,7 +109,7 @@ const App = ({ isServerInfo }) => {
             <Route path="/erc20balance">
               <ERC20Balance />
             </Route>
-            <Route path="/fiat">
+            <Route path="/buy">
               <Ramper />
             </Route>
             <Route path="/erc20transfers">
