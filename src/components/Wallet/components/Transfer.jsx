@@ -155,7 +155,7 @@ function Transfer() {
           onClick={() => transfer()}
           disabled={!tx}
         >
-          Transfer💸
+          Transfer
         </Button>
       </div>
     </div>

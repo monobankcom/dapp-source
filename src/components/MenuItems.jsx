@@ -11,7 +11,7 @@ function MenuItems() {
       mode="horizontal"
       style={{
         display: "flex",
-        fontSize: "15px",
+        fontSize: "13px",
         fontWeight: "400",
         width: "100%",
         justifyContent: "center",
@@ -24,7 +24,7 @@ function MenuItems() {
       <Menu.Item key="/dex">
         <NavLink to="/dex">💻 DEX</NavLink>
       </Menu.Item>
-      <Menu.Item key="buy">
+      <Menu.Item key="/buy">
         <NavLink to="/buy">💳 Buy Crypto</NavLink>
       </Menu.Item>
       <Menu.Item key="/send">

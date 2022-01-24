@@ -46,13 +46,13 @@ export default function Start({ isServerInfo }) {
             </Timeline.Item>
             <Timeline.Item dot="✔">
               <Text style={styles.text}>
-                By connecting a wallet, you agree to monobank{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://monobank.com/terms">
+                By connecting a wallet, you agree to our{" "}
+                <a target="_blank" href="https://monobank.com/terms">
                   Terms of Service
                 </a>{" "}
-                and acknowledge that you have read and understand the{" "}
-                <a target="_blank" rel="noopener noreferrer" href="https://monobank.com/terms">
-                  monobank Protocol Disclaimer
+                and acknowledge that you have read and understand the monobank Web3.0 DApp{" "}
+                <a target="_blank" rel="noopener noreferrer" href="https://monobank.com/terms#protocol">
+                   Protocol Disclaimer
                 </a>{" "}
               </Text>
             </Timeline.Item>

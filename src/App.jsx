@@ -90,9 +90,6 @@ const App = ({ isServerInfo }) => {
             <Route exact path="/start">
               <Start isServerInfo={isServerInfo} />
             </Route>
-            <Route path="/send">
-              <Wallet />
-            </Route>
             <Route path="/dex">
               <Tabs defaultActiveKey="1" style={{ alignItems: "center" }}>
                 <Tabs.TabPane tab={<span>Ethereum</span>} key="1">
@@ -106,11 +103,14 @@ const App = ({ isServerInfo }) => {
                 </Tabs.TabPane>
               </Tabs>
             </Route>
-            <Route path="/erc20balance">
-              <ERC20Balance />
-            </Route>
             <Route path="/buy">
               <Ramper />
+            </Route>
+            <Route path="/send">
+              <Wallet />
+            </Route>
+            <Route path="/erc20balance">
+              <ERC20Balance />
             </Route>
             <Route path="/erc20transfers">
               <ERC20Transfers />
@@ -122,9 +122,6 @@ const App = ({ isServerInfo }) => {
               <Contract />
             </Route>
             <Route path="/">
-              <Redirect to="/start" />
-            </Route>
-            <Route path="/ethereum-boilerplate">
               <Redirect to="/start" />
             </Route>
             <Route path="/nonauthenticated">
